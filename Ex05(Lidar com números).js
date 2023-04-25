@@ -7,7 +7,9 @@ que ela receba um valor como 0.30000000000000004 e retorne R$0,30 (observe a ví
 
 */
 
-NumeroAlto = (a, b) => a + b
+FormatarValor = (valorDecimal) => {
+    console.log(`R$ ${valorDecimal.toFixed(2).toString().replace('.', ',' )}`)  
+}
 
 
-console.log(NumeroAlto)
+FormatarValor(0.1 + 0.2)
