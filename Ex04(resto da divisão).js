@@ -3,8 +3,8 @@
 e o resto da divisão destes dois valores.
 */
 
-RestoDivisao = (a, db) => {
-    console.log(`${a} / ${b} = ${a / b} e o resto da divisão é ${a % b}`)
+RestoDivisao = (a, b) => {
+    console.log(`${a} / ${b} = ${Math.floor(a / b)} e o resto da divisão é ${a % b}`)
 }
 
 
