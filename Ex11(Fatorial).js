@@ -3,11 +3,13 @@
 */
 
 function fatorial(n1){
-    let aux = n1
-    for (let i = n1; i > 1; i--) {
-        aux = aux * (i-1)
-    }
-return aux
+    if (n1 == 0) {
+        return 1
+    } else {
+        for (let i = n1; i > 1; i--) {
+            n1 = n1 * (i-1)
+    }}
+    return n1
 }
 
 console.log(fatorial(0))
