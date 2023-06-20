@@ -21,7 +21,7 @@ function compararString(string1, string2) {
         return elemento !== undefined;
     })
 
-    if (novoArray1.length === novoArray2.length) {
+    if (novoArray1.length === 0 && novoArray2.length === 0) {
         return true
     } else {
         return false
@@ -29,4 +29,4 @@ function compararString(string1, string2) {
 }
 
 
-console.log(compararString('abcd', 'dcbaf'))
+console.log(compararString('abcdfgvj', 'dcbafjvg'))
